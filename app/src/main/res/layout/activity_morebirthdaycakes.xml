@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".morebirthdaycakes">
+
+    <TextView
+        android:id="@+id/tvmorebdcakes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="88dp"
+        android:text="More Birthday Cakes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgmorebdcakes"
+        android:layout_width="121dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="83dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvcake6"
+        app:layout_constraintTop_toBottomOf="@+id/tvmorebdcakes"
+        app:srcCompat="@drawable/cak3" />
+
+    <TextView
+        android:id="@+id/tvcake6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="97dp"
+        android:textStyle="bold"
+        android:text="KSH 4500/="
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvmorebdcakes" />
+
+    <ImageView
+        android:id="@+id/imgcake7"
+        android:layout_width="119dp"
+        android:layout_height="137dp"
+        android:layout_marginEnd="258dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgmorebdcakes"
+        app:srcCompat="@drawable/cak8" />
+
+    <TextView
+        android:id="@+id/tvcake7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="88dp"
+        android:textStyle="bold"
+        android:text="KSH 3000/="
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvcake6" />
+
+    <ImageView
+        android:id="@+id/tvcake8"
+        android:layout_width="109dp"
+        android:layout_height="163dp"
+        android:layout_marginEnd="257dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgcake7"
+        app:srcCompat="@drawable/cak4" />
+
+    <TextView
+        android:id="@+id/tvcake9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="121dp"
+        android:textStyle="bold"
+        android:layout_marginEnd="91dp"
+        android:text="KSH 7300/="
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvcake7" />
+
+    <ImageView
+        android:id="@+id/imgcake10"
+        android:layout_width="127dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="249dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvcake8"
+        app:srcCompat="@drawable/cak9" />
+
+    <TextView
+        android:id="@+id/tvcake10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:textStyle="bold"
+        android:layout_marginEnd="97dp"
+        android:text="KSH 8000/="
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvcake9" />
+
+    <Button
+        android:id="@+id/btnmoreOrders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="41dp"
+        android:text="Make Order"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvcake10" />
+</androidx.constraintlayout.widget.ConstraintLayout>

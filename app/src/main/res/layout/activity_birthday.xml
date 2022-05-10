@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BirthdayActivity">
+
+    <TextView
+        android:id="@+id/tvbddd"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:text="All Birthday Cake"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="105dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="140dp"
+        android:maxHeight="20dp"
+        android:minWidth="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/etTextone"
+        app:layout_constraintTop_toBottomOf="@+id/tvbddd"
+        app:srcCompat="@drawable/cak1" />
+
+    <TextView
+        android:id="@+id/etTextone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="72dp"
+        android:textStyle="bold"
+        android:text=" KHS  200/= "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvbddd" />
+
+    <ImageView
+        android:id="@+id/imgcake1"
+        android:layout_width="123dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="272dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/cak10" />
+
+    <TextView
+        android:id="@+id/tvcake2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="72dp"
+        android:textStyle="bold"
+        android:text="KHS 250/="
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTextone" />
+
+    <ImageView
+        android:id="@+id/imgcak3"
+        android:layout_width="142dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="134dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvcake3"
+        app:layout_constraintTop_toBottomOf="@+id/imgcake1"
+        app:srcCompat="@drawable/cak11" />
+
+    <TextView
+        android:id="@+id/tvcake3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="62dp"
+        android:text="KSH  300/="
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvcake2" />
+
+    <ImageView
+        android:id="@+id/imgcake4"
+        android:layout_width="113dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="144dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvcake4"
+        app:layout_constraintTop_toBottomOf="@+id/imgcak3"
+        app:srcCompat="@drawable/cak12" />
+
+    <TextView
+        android:id="@+id/tvcake4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="70dp"
+        android:textStyle="bold"
+        android:text="KSH 400/="
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvcake3" />
+
+    <ImageView
+        android:id="@+id/imgcake5"
+        android:layout_width="155dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="112dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/imgcake4"
+        app:srcCompat="@drawable/cak2" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="80dp"
+        android:text="KSH 3200/="
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvcake4" />
+
+    <Button
+        android:id="@+id/btnothers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="60dp"
+        android:text="More"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMakeoder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="26dp"
+        android:text="Make order"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeddingActivity">
+
+    <TextView
+        android:id="@+id/tvwedding"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="78dp"
+        android:text="Choose a cake for your party"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgwed1"
+        android:layout_width="119dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="125dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvwed1"
+        app:layout_constraintTop_toBottomOf="@+id/tvwedding"
+        app:srcCompat="@drawable/wed2" />
+
+    <ImageView
+        android:id="@+id/imgwed2"
+        android:layout_width="126dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="111dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvwed2"
+        app:layout_constraintTop_toBottomOf="@+id/imgwed1"
+        app:srcCompat="@drawable/wed3" />
+
+    <ImageView
+        android:id="@+id/imgwed3"
+        android:layout_width="109dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="110dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvwed3"
+        app:layout_constraintTop_toBottomOf="@+id/imgwed2"
+        app:srcCompat="@drawable/wed4" />
+
+    <ImageView
+        android:id="@+id/imgwed4"
+        android:layout_width="152dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="92dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvwed4"
+        app:layout_constraintTop_toBottomOf="@+id/imgwed3"
+        app:srcCompat="@drawable/wed6" />
+
+    <TextView
+        android:id="@+id/tvwed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="90dp"
+        android:text="KSH 5000/="
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvwedding" />
+
+    <TextView
+        android:id="@+id/tvwed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="97dp"
+        android:text="KSH 4500/="
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvwed1" />
+
+    <TextView
+        android:id="@+id/tvwed3"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="100dp"
+        android:text="KSH 5200/="
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvwed2" />
+
+    <TextView
+        android:id="@+id/tvwed4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="90dp"
+        android:textStyle="bold"
+        android:text="KSH 6000/="
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvwed3" />
+
+    <Button
+        android:id="@+id/btnwedorders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="41dp"
+        android:text="Make Order"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvwed4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
