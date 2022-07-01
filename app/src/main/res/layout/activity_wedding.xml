@@ -11,10 +11,11 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:textStyle="bold"
-        android:layout_marginTop="78dp"
+        android:layout_marginTop="32dp"
         android:text="Choose a cake for your party"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,9 +23,11 @@
         android:id="@+id/imgwed1"
         android:layout_width="119dp"
         android:layout_height="130dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="125dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="72dp"
         app:layout_constraintEnd_toStartOf="@+id/tvwed1"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvwedding"
         app:srcCompat="@drawable/wed2" />
 
@@ -32,9 +35,11 @@
         android:id="@+id/imgwed2"
         android:layout_width="126dp"
         android:layout_height="122dp"
-        android:layout_marginTop="29dp"
-        android:layout_marginEnd="111dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="76dp"
         app:layout_constraintEnd_toStartOf="@+id/tvwed2"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgwed1"
         app:srcCompat="@drawable/wed3" />
 
@@ -42,9 +47,11 @@
         android:id="@+id/imgwed3"
         android:layout_width="109dp"
         android:layout_height="102dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="110dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="72dp"
         app:layout_constraintEnd_toStartOf="@+id/tvwed3"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgwed2"
         app:srcCompat="@drawable/wed4" />
 
@@ -52,9 +59,11 @@
         android:id="@+id/imgwed4"
         android:layout_width="152dp"
         android:layout_height="145dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="92dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="36dp"
         app:layout_constraintEnd_toStartOf="@+id/tvwed4"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgwed3"
         app:srcCompat="@drawable/wed6" />
 

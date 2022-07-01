@@ -24,11 +24,13 @@
         android:id="@+id/imageView2"
         android:layout_width="105dp"
         android:layout_height="93dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="58dp"
         android:layout_marginEnd="140dp"
         android:maxHeight="20dp"
         android:minWidth="15dp"
         app:layout_constraintEnd_toStartOf="@+id/etTextone"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvbddd"
         app:srcCompat="@drawable/cak1" />
 
@@ -47,9 +49,11 @@
         android:id="@+id/imgcake1"
         android:layout_width="123dp"
         android:layout_height="66dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="272dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:srcCompat="@drawable/cak10" />
 
@@ -68,9 +72,12 @@
         android:id="@+id/imgcak3"
         android:layout_width="142dp"
         android:layout_height="113dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="134dp"
         app:layout_constraintEnd_toStartOf="@+id/tvcake3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgcake1"
         app:srcCompat="@drawable/cak11" />
 
@@ -89,9 +96,12 @@
         android:id="@+id/imgcake4"
         android:layout_width="113dp"
         android:layout_height="112dp"
-        android:layout_marginTop="13dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="144dp"
         app:layout_constraintEnd_toStartOf="@+id/tvcake4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgcak3"
         app:srcCompat="@drawable/cak12" />
 
@@ -110,9 +120,11 @@
         android:id="@+id/imgcake5"
         android:layout_width="155dp"
         android:layout_height="114dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="14dp"
         android:layout_marginEnd="112dp"
         app:layout_constraintEnd_toStartOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgcake4"
         app:srcCompat="@drawable/cak2" />
 

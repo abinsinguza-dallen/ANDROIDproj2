@@ -3,15 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_birthday.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_birthday.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_chooce_acake.xml" value="0.15" />
         <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_graduation.xml" value="0.11944444444444445" />
+        <entry key="app/src/main/res/layout/activity_graduation.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_make_orders.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_morebirthdaycakes.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_wedding.xml" value="0.15555555555555556" />
+        <entry key="app/src/main/res/layout/activity_wedding.xml" value="0.18" />
       </map>
     </option>
   </component>

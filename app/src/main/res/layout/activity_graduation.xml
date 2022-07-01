@@ -32,10 +32,10 @@
         android:id="@+id/tvgrad1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
-        android:layout_marginEnd="72dp"
-        android:textStyle="bold"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="96dp"
         android:text="KSH 600/="
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvgraduation" />
 
@@ -53,10 +53,10 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:layout_marginTop="140dp"
-        android:layout_marginEnd="64dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="68dp"
         android:text="KSH 2000/="
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvgrad1" />
 
